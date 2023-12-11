@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  
+  background-image:url(image/flowers.jpg);
+}
+.container{
+  color: rgb(0, 0, 0);
+  max-width: 900px;
+  background:linear-gradient(100deg,rgb(223, 236, 240),rgb(250, 234, 220));
+  width: 900px;
+  padding: 25px 40px 10px 40px;
+  border: 1px solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container .text{
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 60;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.sec1{
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+
+}
+.sec2{
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+
+}
+.sec3{
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+}
+.ta{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}

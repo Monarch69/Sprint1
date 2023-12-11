@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="G:/New folder/Elec m sys/RegistrationpageC.css">
+    <title>CustomerRegistration</title>
+</head>
+<body>
+    <div class="container"> <h1>Register New User</h1></div><hr>
+    <div class="container">
+    <div class="text">
+        <h2>Consumer Details</h2>
+        <form> 
+            <div class="sec1">
+            <section>
+            <label for="CD" style="font-size:medium ;">ConsumerID:</label>
+            <input type="text" id="CD" name="CD" maxlength="13">
+            </section>
+           <section>
+            <label for="BN" style="font-size:medium ;">BillNumber:</label>
+            <input type="text" id="BN" name="BN" maxlength="5">
+            </section>
+          </div>
+        </form>
+    </div>
+    </div>
+    <div class="container">
+        <div class="text">
+        <h2>User Details</h2>
+        <hr>
+        <form action="">
+           <div class="ta">
+           <div class="sec2">
+            <section>
+            <label for="Title" style="font-size:medium ;">Title:</label>
+            <input list="Title"  name="Title">
+            <datalist id="Title">
+                <option value="Mr.">
+                <option value="Ms.">
+                <option value="Dr.">
+            </datalist>
+        </section>
+        <section>
+            <label for="ti" style="font-size:medium ;">NAME:</label>
+            <input type="text" id="NA" name="NA">
+        </section>
+        </div>
+        <div class="sec2">
+        <section>
+            <label for="EM" style="font-size:medium ;">Email:</label>
+            <input type="email" id="EM" name="EM">
+        </section>
+        <section>
+            <label for="MN" style="font-size:medium ;">Mobile Number:</label>
+            <input list="Countrycode"  name="Countrycode">
+            <datalist id="Countrycode">
+                <option value="+91">
+                <option value="+001">
+                <option value="+20">
+            </datalist>
+            <input type="tel" id="MN" name="MN"maxlength="10"><br>
+        </section>
+        </div>
+     </div>
+        </form>
+    </div> 
+    </div>
+    <div class="container">
+        <div class="text">
+        <h2>Login Details</h2><hr>
+        <form>
+        <div class="sec3">
+        <section>
+            <label for="UserId" style="font-size:medium ;">UserID:</label>
+            <input type="text" id="UserId" name="UserId">
+        </section>
+        <section>
+            <label for="Pass" style="font-size:medium ;">Password:</label>
+            <input type="password" id="Pass" name="pass"><br>
+        </section>
+        <section>    
+            <label for="CPass" style="font-size:medium ;">Confirm Password:</label>
+            <input type="password" id="CPass" name="Cpass">
+        </section>
+        </div>
+        </form>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
